@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery-practice.js"></script>
+</head>
+<body>
+
+    <div class="container px-3 py-5">
+        <div class="row container px-3 py-3">
+            <div class="card text-center text-white bg-dark col">
+                <div class="card-header">我</div>
+                <div class="card-body">
+                    <img src="./picture/1.png" class="card-img-top" id="imgMe">
+                </div>
+            </div>
+
+            <div class="card text-center border-dark mx-3 my-5 col">
+                <div class="card-header bg-transparent border-dark">結果</div>
+                <div class="card-body text-dark">
+                    <h1 id="result">猜拳機</h1>
+                    <h6 id="wintime" class="mt-5">W 0</h6>
+                    <h6 id="losetime">L 0</h6>
+                    <h6 id="safetime">S 0</h6>
+                </div>
+              </div>
+    
+            <div class="card text-center text-white bg-dark col">
+                <div class="card-header">敵人</div>
+                <div class="card-body">
+                    <img src="./picture/1.png" class="card-img-top" id="imgEnemy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-3 py-5">
+        <div class="row container px-3 py-3">
+            <button class="row btn btn-dark col ml-2" id="btnR">石頭</button>
+            <button class="row btn btn-dark col mx-5" id="btnS">剪刀</button>
+            <button class="row btn btn-dark col mr-2" id="btnP">布</button>
+        </div>
+    </div>
+
+</body>
+</html>
